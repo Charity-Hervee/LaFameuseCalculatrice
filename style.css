@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"Bebas Neue", sans-serif;
+}
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background: linear-gradient(90deg,#e992ff, #fba6ff);
+}
+.calc{
+    background-color: #ff0ec3;
+    width: 350px;
+    height: auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+.afficheur{
+    width: 100%;
+    background-color: white;
+    height: 40px;
+    padding: 30px;
+    margin-bottom: 10px;
+    border:none;
+    border-radius: 5px;
+    text-align: right;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.touches{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    gap: 10px;
+}
+button{
+    height: 50px;
+    background-color:#ff5bd6;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 0.5px solid #000;
+    cursor: pointer;
+}
+button:active{
+    background-color:#ff0c69;
+}
+.operateur{
+    background-color: #ffabea;
+}
+.egale{
+    background-color: #ee6a9c;
+}
